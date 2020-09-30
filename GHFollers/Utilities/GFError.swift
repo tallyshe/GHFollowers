@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollers
 //
-//  Created by Kar Ho She on 15/7/2020.
+//  Created by Kar Ho She on 30/9/2020.
 //  Copyright © 2020 Kar Ho She. All rights reserved.
 //
 
