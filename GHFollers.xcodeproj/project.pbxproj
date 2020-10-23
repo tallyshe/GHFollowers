@@ -15,6 +15,7 @@
 		E81A341D24A65B2300977829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81A341B24A65B2300977829 /* LaunchScreen.storyboard */; };
 		E81A342524A7617F00977829 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A342424A7617F00977829 /* SearchVC.swift */; };
 		E81A342724A761E600977829 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A342624A761E600977829 /* FavoritesListVC.swift */; };
+		E838611525322794006311F2 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838611425322794006311F2 /* GFTabBarController.swift */; };
 		E83A21FB24C38025007F0727 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83A21FA24C38025007F0727 /* FollowerListVC.swift */; };
 		E8403861252E4C4300FFEAB6 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8403860252E4C4300FFEAB6 /* PersistenceManager.swift */; };
 		E8403863252E641000FFEAB6 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8403862252E641000FFEAB6 /* FavoriteCell.swift */; };
@@ -53,6 +54,7 @@
 		E81A341E24A65B2300977829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Support/Info.plist; sourceTree = "<group>"; };
 		E81A342424A7617F00977829 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		E81A342624A761E600977829 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		E838611425322794006311F2 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		E83A21FA24C38025007F0727 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		E8403860252E4C4300FFEAB6 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		E8403862252E641000FFEAB6 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			path = GHFollers;
 			sourceTree = "<group>";
 		};
+		E838611325322737006311F2 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E838611425322794006311F2 /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
 		E84760D024BE1646000A47C0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +194,7 @@
 		E870B2E324CC49BB00ED3A6E /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				E838611325322737006311F2 /* TabBarControllers */,
 				E891CD7E250A4CB6007289BC /* Labels */,
 				E891CD7D250A4C6E007289BC /* ViewControllers */,
 				E891CD7C250A4C58007289BC /* ImageViews */,
@@ -354,6 +365,7 @@
 				E81A342524A7617F00977829 /* SearchVC.swift in Sources */,
 				E8403863252E641000FFEAB6 /* FavoriteCell.swift in Sources */,
 				E891CD84252235FE007289BC /* GFUserInfoHeaderVC.swift in Sources */,
+				E838611525322794006311F2 /* GFTabBarController.swift in Sources */,
 				E813F85524CCC3A100B94C20 /* User.swift in Sources */,
 				E8DE042F252B1C1F0056ED01 /* String+ext.swift in Sources */,
 				E870B2DF24CB7BD200ED3A6E /* GFAlertVC.swift in Sources */,
