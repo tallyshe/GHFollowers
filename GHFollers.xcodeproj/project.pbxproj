@@ -27,6 +27,8 @@
 		E8505CC5252AC767000E73D6 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8505CC4252AC767000E73D6 /* GFFollowerItemVC.swift */; };
 		E852961524CF8CCF00111EDB /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852961424CF8CCF00111EDB /* FollowerCell.swift */; };
 		E852961724D3B1FF00111EDB /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852961624D3B1FF00111EDB /* GFAvatarImageView.swift */; };
+		E86EC5EB2544241A00828C14 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EC5EA2544241A00828C14 /* GFAlertContainerView.swift */; };
+		E86EC5ED2545FF0100828C14 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86EC5EC2545FF0100828C14 /* GFDataLoadingVC.swift */; };
 		E86F046F252488DD0073C3C2 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F046E252488DD0073C3C2 /* GFError.swift */; };
 		E870B2DB24CB093300ED3A6E /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870B2DA24CB093300ED3A6E /* GFTitleLabel.swift */; };
 		E870B2DD24CB0BE200ED3A6E /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870B2DC24CB0BE200ED3A6E /* GFBodyLabel.swift */; };
@@ -66,6 +68,8 @@
 		E8505CC4252AC767000E73D6 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		E852961424CF8CCF00111EDB /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		E852961624D3B1FF00111EDB /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		E86EC5EA2544241A00828C14 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		E86EC5EC2545FF0100828C14 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		E86F046E252488DD0073C3C2 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		E870B2DA24CB093300ED3A6E /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		E870B2DC24CB0BE200ED3A6E /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -231,6 +235,7 @@
 			children = (
 				E891CD7F250A4D36007289BC /* GFEmptyStateView.swift */,
 				E8505CBE2524F90A000E73D6 /* GFItemInfoView.swift */,
+				E86EC5EA2544241A00828C14 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				E8505CC6252AC809000E73D6 /* ItemInfoVCs */,
 				E870B2DE24CB7BD200ED3A6E /* GFAlertVC.swift */,
 				E891CD83252235FE007289BC /* GFUserInfoHeaderVC.swift */,
+				E86EC5EC2545FF0100828C14 /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 				E870B2DB24CB093300ED3A6E /* GFTitleLabel.swift in Sources */,
 				E807870925010C4A0018553E /* UIHelper.swift in Sources */,
 				E891CD8825227DB4007289BC /* Constants.swift in Sources */,
+				E86EC5ED2545FF0100828C14 /* GFDataLoadingVC.swift in Sources */,
 				E8505CC1252504F9000E73D6 /* GFItemInfoVC.swift in Sources */,
 				E847E2D524C23593004AF593 /* GFButton.swift in Sources */,
 				E8C62D4024B658DA00224453 /* Follower.swift in Sources */,
@@ -370,6 +377,7 @@
 				E8DE042F252B1C1F0056ED01 /* String+ext.swift in Sources */,
 				E870B2DF24CB7BD200ED3A6E /* GFAlertVC.swift in Sources */,
 				E870B2DD24CB0BE200ED3A6E /* GFBodyLabel.swift in Sources */,
+				E86EC5EB2544241A00828C14 /* GFAlertContainerView.swift in Sources */,
 				E891CD86252236C1007289BC /* GFSecondaryTitleLabel.swift in Sources */,
 				E8DE042D252B1BA20056ED01 /* Date+Ext.swift in Sources */,
 				E8403861252E4C4300FFEAB6 /* PersistenceManager.swift in Sources */,
