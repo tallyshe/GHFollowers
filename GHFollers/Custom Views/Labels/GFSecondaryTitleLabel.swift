@@ -26,6 +26,7 @@ class GFSecondaryTitleLabel: UILabel {
         font = UIFont.systemFont(ofSize: fontSize, weight: .medium)
     }
     
+    
     private func configure() {
         textColor                   = .secondaryLabel
         adjustsFontSizeToFitWidth   = true
@@ -33,5 +34,4 @@ class GFSecondaryTitleLabel: UILabel {
         lineBreakMode               = .byTruncatingTail
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }

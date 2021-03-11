@@ -33,6 +33,7 @@ class GFFollowerItemVC: GFItemInfoVC{
         configureItems()
     }
     
+    
     private func configureItems(){
         itemInfoViewOne.set(itemInfoType: .followers, withCount: user.followers)
         itemInfoViewTwo.set(itemInfoType: .following, withCount: user.following)

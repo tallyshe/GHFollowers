@@ -29,6 +29,7 @@ class GFAlertVC: UIViewController {
         self.buttonTitle    = buttonTitle
     }
     
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -38,6 +39,7 @@ class GFAlertVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         view.addSubViews(containerView, titleLabel, actionButton, messageLabel)
+        
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
